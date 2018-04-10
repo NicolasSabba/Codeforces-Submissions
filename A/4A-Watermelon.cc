@@ -8,8 +8,8 @@ main(){
     	cin >> n;
     	k = n & 1;
     	if(k || (n <= 2))
-	    	cout << "NO";
+	    	cout << "NO" << endl;
     	else
-	    	cout << "YES";
+	    	cout << "YES" << endl;
     	return 0;
 }
